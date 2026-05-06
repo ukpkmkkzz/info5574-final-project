@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            NFLX_logret   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.000
+Method:                 Least Squares   F-statistic:                    0.2294
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.632
+Time:                        06:47:08   Log-Likelihood:                 9621.4
+No. Observations:                4792   AIC:                        -1.924e+04
+Df Residuals:                    4790   BIC:                        -1.923e+04
+Df Model:                           1                                         
+Covariance Type:                  HC1                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0012      0.000      2.467      0.014       0.000       0.002
+GLD_logret     0.0243      0.051      0.479      0.632      -0.075       0.124
+==============================================================================
+Omnibus:                     1658.861   Durbin-Watson:                   1.955
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           108156.352
+Skew:                          -0.805   Prob(JB):                         0.00
+Kurtosis:                      26.218   Cond. No.                         89.9
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
